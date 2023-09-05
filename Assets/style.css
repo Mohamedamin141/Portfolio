@@ -17,7 +17,9 @@ body{
 }
 nav{
   align-items: center;
+
 }
+/* The Nav bar menu will not show on small screens (less than 410px) */
 nav ul{
   display: none;
 }
@@ -51,7 +53,6 @@ margin-left: 5%;
   color: white;
   margin-top: 2%;
   min-width: 90%;
-    /* border: 2px solid black;  */ 
  max-width: 370px;
  text-align: center;
  overflow-wrap:break-word ;
@@ -102,7 +103,7 @@ footer{
   text-align: center;
 }
 
-
+/* 410px screen View  */
 
 @media screen and (min-width: 410px){
 
@@ -115,6 +116,7 @@ form{
 }
 
 }
+/* 650px screen View  */
 @media screen and (min-width: 650px){
 
 
@@ -136,8 +138,8 @@ form{
 }
   }
 
-/* Medidum screen View  */
-  @media screen and (min-width: 1291px) {
+/* 1290px screen View  */
+  @media screen and (min-width: 1290px) {
   
 
     body{ 
@@ -150,7 +152,6 @@ form{
   }
   nav h1{
       font-size: 2.5em;
-      /* text-align: center; */
       margin-top: 17px;
       color: aliceblue;
   }
@@ -203,7 +204,6 @@ form{
       
     }
     .portfolio{
-      /* border: 1px solid white; */
       margin-top: 5%;
       min-width: 100%;
       min-height: 100%;
@@ -238,13 +238,13 @@ form{
    .box1
       {
           float:left;
-          /* border: 2px solid white; */
+      
           width:33%;
           height:60%;
       } 
   .box2{
    float:left;
-   /* border: 2px solid white; */
+
    width:33%;
    height:60%;
    font-size: 0.8em;
@@ -252,7 +252,7 @@ form{
   
   .box3{
       float:left;
-      /* border: 2px solid white; */
+  
       width:33%;
       height:60%;
   }
@@ -369,11 +369,9 @@ nav ul li a{
   
 }
 .text {
-  /* background-color: #04AA6D; */
   color: white;
   font-size: 2em;
   padding: -90px -680px;
-  /* background-color: aquamarine; */
   position: relative;
   margin-top: -80%;
   margin-right: -190%;
@@ -393,12 +391,12 @@ nav ul li a{
 
     opacity: 1;
      display: block; 
-    /* width: 100%; */
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
 
   }
+
 .main-img:hover {
   opacity: 0.5;
 }
@@ -425,7 +423,6 @@ nav ul li a{
     text-align: center;
     font-size: 3em;
     margin-top: 2%;
-    /* margin-left: 40%; */
   }
   #box{
     
@@ -468,20 +465,17 @@ nav ul li a{
  .box1
     {
         float:left;
-        /* border: 2px solid white; */
         width:33%;
         height:60%;} 
 
  .box2{
  float:left;
- /* border: 2px solid white; */
  width:33%;
  height:60%;
 }
 
 .box3{
     float:left;
-    /* border: 2px solid white; */
     width:33%;
     height:60%;
 }
@@ -518,6 +512,19 @@ h3{
 
  input{
     margin: 20px;
+ }
+ input[type=submit] {
+background-color: rgb(70, 67, 67);
+color: white;
+padding: 5px;
+padding-left: 2%;
+padding-right: 2%;
+
+ }
+ input[type=submit]:hover{
+
+  background-color: azure;
+  color: black;
  }
   
  footer{
