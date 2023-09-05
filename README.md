@@ -24,7 +24,7 @@ This project was built using the following technologies:
 
 To run this project, follow these steps:
 
-1. Open your web browser and navigate to `http://localhost:3000` to view the portfolio website.
+1. Open your web browser and navigate to `https://mohamedamin141.github.io/Portfolio/` to view the portfolio website.
 
 
 ## Wireframe
@@ -33,7 +33,4 @@ To run this project, follow these steps:
 ## Web page
 ![Screenshot 2023-09-05 174423](https://github.com/Mohamedamin141/Portfolio/assets/138842903/e03134f5-620e-49dc-9c0b-78e9c3f840d7)
 
-## License
-
-This project is licensed under the [License Name] License.
 
