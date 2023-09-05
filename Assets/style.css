@@ -28,8 +28,9 @@ nav ul{
   border-radius: 75%;
   width: 25%;
 }
-.container .middle{
-  display:none;  
+.middle{
+  display: none;
+   
 }
 
 .main-img{
@@ -37,8 +38,7 @@ nav ul{
 width: 80%;
 margin: 1%;
 border-radius: 5%;
-margin-left: 1%;
-
+margin-left: 5%;
 }
 
 .about h2{
@@ -68,7 +68,7 @@ font-size: 2em;
 
 .box-img{
   width: 80%;
-  margin: 3%;
+  margin: 5%;
   border-radius: 3%;
 }
 
@@ -335,19 +335,19 @@ nav ul li a{
     width: 200px;
     height: 200px;
     border-radius: 25%;
-    display: block;
-    margin-left: 45%;
-    margin-top: 4%;
-    opacity: 1;
-    display: block;
-    /* width: 100%; */
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    
+   
 
  }
- .container.middle {
+
+.logo{
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+
+ .middle {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
@@ -356,6 +356,7 @@ nav ul li a{
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   text-align: center;
+  display: block;
   
 }
 
@@ -371,9 +372,11 @@ nav ul li a{
   /* background-color: #04AA6D; */
   color: white;
   font-size: 2em;
-  padding: 16px 32px;
-  margin-top: -70%;
-  margin-right: -180%;
+  padding: -90px -680px;
+  /* background-color: aquamarine; */
+  position: relative;
+  margin-top: -80%;
+  margin-right: -190%;
   
 }
 
@@ -446,18 +449,18 @@ nav ul li a{
   }
   .box2:hover .box-img{
   -webkit-filter: blur(4px); 
-      filter: blur(4px);
+      filter: blur(3px);
 }
 
 
 .box1:hover .box-img{
   -webkit-filter: blur(4px); 
-      filter: blur(4px);
+      filter: blur(3px);
 }
 
 .box3:hover .box-img{
   -webkit-filter: blur(4px); 
-      filter: blur(4px);
+      filter: blur(3px);
 }
 
   
